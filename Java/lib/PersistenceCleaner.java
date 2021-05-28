@@ -1,9 +1,12 @@
+package Alma.util;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 
-//to import all static method use import static Lib.*;
-public class Lib {
-	// method for reading and skipping empty lines
+public class PersistenceCleaner {
+	
+	private PersistenceCleaner() {}
+	
 	public static String readLineSkippingEmpty(BufferedReader innerReader) throws IOException {
 		String line;
 		do { // skips empty lines
